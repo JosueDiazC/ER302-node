@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js"
   },
   "author": "",
   "license": "ISC",
-  "type":"module",
+  "type": "module",
   "dependencies": {
+    "byte": "^2.0.0",
     "ffi-napi": "^4.0.3",
+    "prompt-sync": "^4.2.0",
     "ref-napi": "^3.0.3"
   }
 }
